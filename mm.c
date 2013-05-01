@@ -26,7 +26,7 @@
  ********************************************************/
 team_t team = {
 	/* Team name */
-	"instructors",
+	"Super Secret NSA Hacker Team",
 	/* First member's full name */
 	"Michael Garate",
 	/* First member's NYU NetID */
@@ -42,6 +42,8 @@ team_t team = {
 
 /* rounds up to the nearest multiple of ALIGNMENT */
 #define ALIGN(size) (((size) + (ALIGNMENT-1)) & ~0x7)
+
+/* THIS IS ME EDITING THINGS!!?!?? */
 
 
 #define SIZE_T_SIZE (ALIGN(sizeof(size_t)))
